@@ -1,0 +1,94 @@
+.card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.card-titulo-principal{
+    padding: 1em;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: var(--font-secundaria);
+    color: var(--black);
+    margin-bottom: 1em;
+    text-decoration: 5px underline var(--orange);
+    text-underline-offset: 0.3em;
+}
+
+.card1, .card2, .card3, .card4{
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    border: 3px solid var(--orange);
+    border-radius: 40px;
+    padding: 1em 1em;
+    margin: 1em;
+    width: 60%;
+}
+
+.card2, .card4{
+    margin: 1em 0 1em 30em;
+}
+
+.card4{
+    margin-bottom: 10em;
+}
+
+.card-titulo{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--font-secundaria);
+    color: var(--orange);
+    text-decoration: 5px underline var(--orange);
+    text-underline-offset: 0.5em;
+}
+
+.card-texto{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-primaria);
+    color: var(--black);
+    margin-top: 2em;
+}
+
+.card-img{
+    width: 100%;
+    max-width: 300px;
+    min-width: 140px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .card{
+        text-align: center;
+    }
+    .card-titulo-principal{
+        font-size: 30px;
+    }
+    .card-texto{
+        font-size: 10px;
+    }
+    .card1, .card2, .card3, .card4{
+        padding: 10px;
+        margin: 0.5em 20%;
+        position: relative;
+    }
+    .card-img{
+        display: none;
+    }
+    .card-titulo{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .apresentacao-img{
+        display: none;
+    }
+    .card1, .card2, .card3, .card4{
+        padding: 10px;
+        margin: 0.5em 20%;
+        position: relative;
+    }
+}

@@ -1,0 +1,19 @@
+@import url("./styles/header.css");
+@import url("./styles/main.css");
+@import url("./styles/cards.css");
+@import url("./styles/contato.css");
+@import url("./styles/card2.css");
+@import url("./styles/why.css");
+@import url("./styles/rodape.css");
+
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --orange: #F9BC6E;
+    --font-primaria: "Hanken Grotesk";
+    --font-secundaria: "PT Sans";
+}
+
+body{
+    background-color: #fdfdfd;
+}

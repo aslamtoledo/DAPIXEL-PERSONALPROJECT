@@ -1,0 +1,55 @@
+.segundo-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.segundo-card-titulo{
+    font-size: 52px;
+    font-family: var(--font-secundaria);
+    font-weight: 700;
+    padding: 3em 0;
+    text-decoration: 5px underline var(--orange);
+    text-underline-offset: 0.5em;
+}
+
+.segundo-card-items{
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    border: 3px solid var(--orange);
+    border-radius: 40px;
+    padding: 3em 3em;
+    margin-bottom: 10em;
+    width: 80%;
+}
+
+.segundo-card-img{
+    width: 30%;
+}
+
+.segundo-card-texto{
+    margin-left: 5em;
+    width: 70%;
+}
+
+.segundo-card-subtitulo{
+    font-size: 32px;
+    font-family: var(--font-primaria);
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 1em;
+}
+
+.segundo-card-nome{
+    color: var(--orange);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--font-primaria);
+}
+
+@media screen and (max-width: 600px) {
+    .segundo-card{
+        display: none;
+    }
+}
